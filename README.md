@@ -11,7 +11,7 @@ Want to merely run a simple thread worker in a Django background? I will show yo
 ### Pros
 - you can start a simple Django thread worker that executes your task each interval, logs heart-beat, has access to Django ORM
 
-## Scripts
+## Script
 - check `src/utils/job.py` for general ABC job worker class
 - check `src/app_with_background_thread_worker/jobs` for simple implementation of the ABC class in the Django app
 - check `src/app_with_background_thread_worker/test` for example of faking the simple worker class
