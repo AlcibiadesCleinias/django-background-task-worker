@@ -1,6 +1,8 @@
 # django-background-task-worker
 Want to merely run a simple thread worker in a Django background? I will show you, but:
 
+this repo is not about "ready-to-use" package, it is only about how to natively run tasks in background Django thread.
+
 ## Pros & Cons
 ### Cons
 - The [Celery](https://docs.celeryproject.org/en/stable/) wheel already exists
@@ -36,6 +38,7 @@ docker run --rm --name test-django-background-worker -v $(pwd)/src:/opt -t djang
 ## Сompetitor
 - [django-background-tasks](https://github.com/arteria/django-background-tasks/blob/master/docs/index.rst) Django package that uses your database to register task and etc.
 - [RQ](https://github.com/rq/rq) package that uses Redis
+- [django-workers](https://github.com/geekforbrains/django-workers) Django package that adds posibility to run separate manage.py command for worker process, tasks synchronizing via django db
 
 ## Discussion
 - I hope on discussions: do not hesitate to open issues relate to the behaviour and suggest the wheel improvements (or merely this readme file).
