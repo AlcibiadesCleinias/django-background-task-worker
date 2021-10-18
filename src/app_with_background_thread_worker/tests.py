@@ -3,7 +3,7 @@ from app_with_background_thread_worker.jobs import ExampleJob
 
 
 class FakeExampleJob(ExampleJob):
-    def __init__(self):
+    def run(self):
         pass
 
 
